@@ -140,13 +140,22 @@ nav ul li:hover a {
     color: var(--white);
     border-block-end: 0.2rem solid var(--golden) !important;
 }
-
-.iconi ul li a {
+.iconi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iconi a {
     color: var(--white) !important;
     font-size: 1.2rem;
+    margin-inline: 1.5rem;
 }
 
-.iconi ul li:hover a {
+#menu-icon{
+    display: none;
+}
+
+.iconi a:hover{
     border: none !important;
 }
 

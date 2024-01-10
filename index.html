@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Cookie&family=Open+Sans:wght@500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Cookie&family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -18,13 +17,13 @@
     <!-- banner section start -->
     <section class="banner">
         <div class="container">
-            <div class="row">
+            <div class="row roww">
                 <div class="col-4">
                     <a href="" class="logo">LOGO</a>
                 </div>
                 <div class="col-8">
                     <nav>
-                        <ul>
+                        <ul  class="navbar">
                             <li><a href="" class="active">Home</a></li>
                             <li><a href="">Shop</a></li>
                             <li><a href="">About us</a></li>
@@ -33,10 +32,9 @@
                             <li><a href="">Contact us</a></li>
                         </ul>
                         <div class="iconi">
-                            <ul>
-                                <li><a href=""><i class="fa-solid fa-user gg"></i> </a></li>
-                                <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
-                            </ul>
+                        <a href=""><i class="fa-solid fa-user gg"></i> </a>
+                        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        <div class="bx bx-menu" id="menu-icon"></div>
                         </div>
                     </nav>
                 </div>
@@ -449,6 +447,7 @@
             },
         });
     </script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
