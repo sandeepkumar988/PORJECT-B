@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Cookie&family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -61,7 +62,7 @@
 
 
     <!-- Crafted section start -->
-    <section class="crafted">
+    <section class="crafted" data-aos="slide-up">
         <div class="container">
             <div class="row">
                 <div class="col-3">
@@ -103,7 +104,7 @@
 
 
     <!-- Choose section start -->
-    <section class="choose">
+    <section class="choose" data-aos="slide-up">
         <div class="container">
             <div class="row">
                 <div class="col-8">
@@ -157,7 +158,7 @@
 
 
     <!-- Design section start -->
-    <section class="design">
+    <section class="design" data-aos="slide-up">
         <div class="container">
             <div class="row">
                 <div class="col-8">
@@ -188,7 +189,7 @@
     <!-- Design section end -->
 
     <!-- Chair_info section start -->
-    <div class="chair_info">
+    <div class="chair_info" data-aos="slide-up">
         <div class="container">
             <div class="row">
                 <div class="col-4 charr">
@@ -243,7 +244,7 @@
 
 
     <!--Testimoniala section start  -->
-    <section class="Testimoniala center">
+    <section class="Testimoniala center" data-aos="slide-up">
         <div class="container">
             <h2>Testimonials</h2>
             <div class="swiper mySwiper">
@@ -292,7 +293,7 @@
 
 
     <!-- Blog section start -->
-    <section class="blog">
+    <section class="blog" data-aos="slide-up">
         <div class="container">
             <div class="blog_main">
                 <h2>Recent Blog</h2>
@@ -333,7 +334,7 @@
 
 
     <!-- Subscribe section start -->
-    <section class="subscribe_section">
+    <section class="subscribe_section" data-aos="slide-up">
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -448,6 +449,15 @@
         });
     </script>
     <script type="text/javascript" src="js/script.js"></script>
+
+    <!-- aos animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        duration: 1500,
+      });
+    </script>
 </body>
 
 </html>
