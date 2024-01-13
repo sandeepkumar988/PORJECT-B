@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     border: none !important;
+    transition: all 0.3s linear;
 }
 
 html,
 body {
     scroll-behavior: smooth;
-    font-family: open sans;
+    font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -109,7 +110,7 @@ nav {
 }
 
 .logo {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -126,7 +127,7 @@ nav ul {
 }
 
 nav ul li a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
     color: var(--lightgray);
     display: block;
@@ -165,16 +166,16 @@ nav ul li:hover a {
 }
 
 .banner-info .row .col-8 {
-    background: url(../images/couch.png) no-repeat bottom;
+    background: url(../images/couch.png) no-repeat;
     width: 60%;
-    height: 81vh;
+    height: 80vh;
     background-size: 100% 100%;
     z-index: 1;
 }
 
 .banner_content h1 {
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .banner_content p {

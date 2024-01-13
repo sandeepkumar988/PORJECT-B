@@ -1,8 +1,7 @@
 @media only screen and (width<756px) {
-    * {
+    *{
         overflow-X: hidden;
     }
-
     .container {
         width: 90%;
     }
@@ -33,7 +32,7 @@
         padding: 0.5rem 1rem;
     }
 
-
+    
     /* banner section start */
     #menu-icon {
         display: block;
@@ -41,11 +40,9 @@
         cursor: pointer;
         z-index: 1001;
     }
-
-    .iconi a {
+    .iconi a{
         display: none;
     }
-
     .navbar {
         position: absolute;
         top: 0;
@@ -56,25 +53,24 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: var(--golden);
+        background-color:var(--golden);
         gap: 0.5rem;
         transition: all 0.5s ease;
     }
-
-    .navbar a.active {
-        color: var(--dark);
+    .navbar a.active{
+        color:var(--dark);
     }
 
-    .navbar a {
+    .navbar a{
         color: var(--white);
     }
 
-    .navbar a:hover {
-        color: var(--dark);
+    .navbar a:hover{
+        color:var(--dark);
     }
-
-    .navbar.open {
-        right: 0;
+    
+    .navbar.open{
+        right: 0 ;
     }
 
     .banner .container .roww {
@@ -91,6 +87,7 @@
 
     .banner {
         height: 100vh;
+        overflow:visible;
     }
 
     .banner_content h1 {
@@ -105,7 +102,6 @@
         width: 100%;
         height: 50vh;
     }
-
     /* banner section end */
 
 
@@ -113,7 +109,6 @@
     .crafted .container .row .col-3 {
         width: 100%;
     }
-
     /* crafted section end */
 
 
@@ -133,7 +128,6 @@
         width: 35%;
         height: 30vh;
     }
-
     /* choose section end */
 
 
@@ -152,6 +146,7 @@
 
     .design .container .row .col-8 {
         margin-block-end: 5rem;
+        overflow:visible;
     }
 
     .design .container .row .col-8 img {
@@ -173,7 +168,6 @@
     .design_content ul li {
         font-size: 0.7rem;
     }
-
     /* Design section end */
 
 
@@ -193,7 +187,6 @@
     .chairsinfo a {
         font-size: 0.8rem;
     }
-
     /* chair_info section end */
 
 
@@ -210,11 +203,10 @@
     .test_info img {
         width: 18%;
     }
+     /* Testimoniala section end */
 
-    /* Testimoniala section end */
 
-
-    /* Blog section start */
+     /* Blog section start */
     .blog {
         padding-block: 0;
     }
@@ -223,7 +215,6 @@
         width: 100%;
         padding-block-end: 1rem;
     }
-
     /* Blog section end */
 
 
@@ -258,7 +249,6 @@
         font-size: 1.2rem;
         margin-block-start: 1rem;
     }
-
     /* subscribe_section section end */
 
 
@@ -279,7 +269,6 @@
         flex-direction: column;
         gap: 1rem;
     }
-
     /* Footer section end */
 
 
@@ -295,6 +284,5 @@
     .cp_info ul li a {
         font-size: 0.8rem;
     }
-
     /* copyright section end */
 }

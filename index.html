@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Css File (styling document) -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Media File (Mobile responsive) -->
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media.css" />
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Font Style -->
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Cookie&family=Open+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <!-- For toggle (bx-menu) -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -38,11 +40,11 @@
                     <nav>
                         <ul  class="navbar">
                             <li><a href="" class="active">Home</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">About us</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Blog</a></li>
-                            <li><a href="">Contact us</a></li>
+                            <li><a href="#shop">Shop</a></li>
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#Contact">Contact us</a></li>
                         </ul>
                         <div class="iconi">
                         <a href=""><i class="fa-solid fa-user gg"></i> </a>
@@ -74,7 +76,7 @@
 
 
     <!-- Crafted section start -->
-    <section class="crafted" data-aos="slide-up">
+    <section class="crafted" data-aos="slide-up" id="shop">
         <div class="container">
             <div class="row">
                 <div class="col-3">
@@ -116,7 +118,7 @@
 
 
     <!-- Choose section start -->
-    <section class="choose" data-aos="slide-up">
+    <section class="choose" data-aos="slide-up" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-8">
@@ -170,7 +172,7 @@
 
 
     <!-- Design section start -->
-    <section class="design" data-aos="slide-up">
+    <section class="design" data-aos="slide-up" id="services">
         <div class="container">
             <div class="row">
                 <div class="col-8">
@@ -256,7 +258,7 @@
 
 
     <!--Testimoniala section start  -->
-    <section class="Testimoniala center" data-aos="slide-up">
+    <section class="Testimoniala center" data-aos="slide-up"  id="blog">
         <div class="container">
             <h2>Testimonials</h2>
             <div class="swiper mySwiper">
@@ -346,7 +348,7 @@
 
 
     <!-- Subscribe section start -->
-    <section class="subscribe_section" data-aos="slide-up">
+    <section class="subscribe_section" data-aos="slide-up" id="Contact">
         <div class="container">
             <div class="row">
                 <div class="col-6">
@@ -467,7 +469,7 @@
     <script>
       AOS.init({
         offset: 100,
-        duration: 1500,
+        duration: 1000,
       });
     </script>
     
