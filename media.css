@@ -1,7 +1,8 @@
 @media only screen and (width<756px) {
-    *{
+    * {
         overflow-X: hidden;
     }
+
     .container {
         width: 90%;
     }
@@ -32,15 +33,19 @@
         padding: 0.5rem 1rem;
     }
 
+
+    /* banner section start */
     #menu-icon {
         display: block;
         font-size: 2rem;
         cursor: pointer;
         z-index: 1001;
     }
-    .iconi a{
+
+    .iconi a {
         display: none;
     }
+
     .navbar {
         position: absolute;
         top: 0;
@@ -51,24 +56,25 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color:var(--golden);
+        background-color: var(--golden);
         gap: 0.5rem;
         transition: all 0.5s ease;
     }
-    .navbar a.active{
-        color:var(--dark);
+
+    .navbar a.active {
+        color: var(--dark);
     }
 
-    .navbar a{
+    .navbar a {
         color: var(--white);
     }
 
-    .navbar a:hover{
-        color:var(--dark);
+    .navbar a:hover {
+        color: var(--dark);
     }
-    
-    .navbar.open{
-        right: 0 ;
+
+    .navbar.open {
+        right: 0;
     }
 
     .banner .container .roww {
@@ -100,10 +106,18 @@
         height: 50vh;
     }
 
+    /* banner section end */
+
+
+    /* crafted section start */
     .crafted .container .row .col-3 {
         width: 100%;
     }
 
+    /* crafted section end */
+
+
+    /* choose section start */
     .choose {
         padding-block-start: 0;
         padding-block-end: 5rem;
@@ -120,6 +134,10 @@
         height: 30vh;
     }
 
+    /* choose section end */
+
+
+    /* Design section start */
     .design {
         padding-block-start: 5rem;
         padding-block-end: 5rem;
@@ -156,6 +174,10 @@
         font-size: 0.7rem;
     }
 
+    /* Design section end */
+
+
+    /* chair_info section start */
     .chair_info {
         padding-block-end: 1rem;
     }
@@ -172,6 +194,10 @@
         font-size: 0.8rem;
     }
 
+    /* chair_info section end */
+
+
+    /* Testimoniala section start */
     .swiper-slide {
         padding-inline: 0;
     }
@@ -185,6 +211,10 @@
         width: 18%;
     }
 
+    /* Testimoniala section end */
+
+
+    /* Blog section start */
     .blog {
         padding-block: 0;
     }
@@ -194,6 +224,10 @@
         padding-block-end: 1rem;
     }
 
+    /* Blog section end */
+
+
+    /* subscribe_section section start */
     .subscribe_section .container .row {
         flex-direction: column-reverse;
     }
@@ -225,6 +259,10 @@
         margin-block-start: 1rem;
     }
 
+    /* subscribe_section section end */
+
+
+    /* Footer section start */
     .footer .container .row .col-4 p {
         margin-inline-end: 0;
     }
@@ -242,6 +280,10 @@
         gap: 1rem;
     }
 
+    /* Footer section end */
+
+
+    /* copyright section start */
     .copyright {
         text-align: center;
     }
@@ -253,4 +295,6 @@
     .cp_info ul li a {
         font-size: 0.8rem;
     }
+
+    /* copyright section end */
 }
