@@ -21,6 +21,9 @@ body {
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+body.no-scroll {
+    overflow: hidden;
+}
 ::-moz-selection {
     background-color: var(--main);
     color: var(--bgcolor);
@@ -438,6 +441,7 @@ nav ul li:hover a {
     height: 65vh;
     z-index: 1;
     border-radius: 1rem;
+    object-fit: cover;
 }
 
 .design .container .row .col-8::before {
@@ -678,12 +682,12 @@ nav ul li:hover a {
 
 .sub {
     position: relative;
+    height: 20vh;
 }
 
 .sub_img_info {
-    position: absolute;
-    top: -10rem;
-    right: 0;
+    position: relative;
+    top: -130%;
 }
 
 .subscribe_section .container .row .col-6 input {
